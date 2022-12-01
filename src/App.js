@@ -14,11 +14,11 @@ function App() {
   }
 
   const addBy = () => {
-    dispatch(actions.addBy())
+    dispatch(actions.addBy(10))
   }
 
   const subtractBy = () => {
-    dispatch(actions.subtractBy())
+    dispatch(actions.subtractBy(10))
   }
 
   return (
